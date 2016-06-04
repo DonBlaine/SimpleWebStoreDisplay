@@ -1,0 +1,306 @@
+header {
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	top: 0;
+	padding-bottom: 30px;
+}
+
+header ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: black;
+	width: 100%;
+	border-top: 2px solid;
+	border-color: whitesmoke;
+
+}
+
+header li {
+	float: left;
+	display: block;
+	color: whitesmoke;
+	text-align: center;
+	text-decoration: none;
+	width: 25%;
+	
+}
+
+header li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+	text-decoration: none;
+	font-size: 120%;
+
+
+}
+
+header li a:hover {
+	background-color: white;
+	color: black;
+}
+
+header h1{
+	background-color:black;
+	text-align: center;
+	font-size: 500%;
+	font-style: italic;
+	color: whitesmoke;
+	padding: 10px;
+	
+}
+body{
+	background-color: aliceblue;
+}
+
+.dbtable {
+	width: 85%;
+	background-color: lightblue;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 30px;
+	align-content: center;
+}
+
+.dbtable table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	border: 1px solid black;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+.dbtable tr {
+	padding: 10px;
+	border: 1px solid black;
+	width:100%
+
+}
+.dbtable th {
+	background-color:deepskyblue;
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+	font-style: italic;
+	word-wrap: normal;
+	font-size: 1.75vw;
+	width: 100%;
+	overflow: hidden;
+}
+
+.dbtable td {
+	background-color:white;
+	border: 1px solid black;
+	padding: 10px;
+	word-wrap: normal;
+	font-size: 1.3vw;
+	width:100%;
+	overflow:hidden;
+}
+
+.prodtableholder{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+.prodtable {
+	width: 25%;
+	background-color: lightblue;
+	border: 1px solid black;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 30px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.prodtable table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	border: 1px solid black;
+	table-layout: fixed;
+}
+
+.prodtable tr {
+	padding: 10px;
+	border: 1px solid black;
+
+}
+.prodtable th {
+	background-color:deepskyblue;
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+	font-style: italic;
+	word-wrap: normal;
+	font-size: 1.75vw;
+}
+
+.prodtable td {
+	background-color:white;
+	border: 1px solid black;
+	padding: 10px;
+	word-wrap: normal;
+	font-size: 1.5vw;
+
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 60px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+	background-color: rgba(0,0,0,0.4); 
+}
+
+/*css modal content inspired by w3schools example, link in customers.php file */
+.modal-content {
+    background-color: dimgray;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 50%;
+
+}
+
+.modal-content table{
+	width: 90%;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding: 30px;
+	align-content: center;
+}
+
+.modal-content tr {
+	padding: 10px;
+	border: 1px solid black;
+
+}
+.modal-content th {
+	background-color:deepskyblue;
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+	font-style: italic;
+	word-wrap: normal;
+	font-size: 1.75vw;
+}
+
+.modal-content td {
+	background-color:white;
+	border: 1px solid black;
+	padding: 10px;
+	word-wrap: normal;
+}
+	
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+	clear: both;
+	margin-left: 60px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.clickablerow:hover {
+	cursor: pointer;
+	background-color: grey;
+}
+
+.sideform{
+	width: 20%;
+	background-color: lightblue;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	vertical-align: middle;
+}
+
+
+#hightlight-row{
+	background-color: yellow;
+}
+
+.sideform p{
+	background-color:deepskyblue;
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+	font-size: 100%;
+	font-style: italic;
+	font-size: 1.5vw;
+}
+
+#description{
+	width: 100px;
+	column-width: 200px;
+}
+footer {
+	position:sticky;
+	width: 100%;
+	display: inline-block;
+	bottom: 0;
+	padding-top: 30px;
+}
+
+footer ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: black;
+	width: 100%;
+
+}
+
+footer li {
+	float: left;
+	display: block;
+	color: whitesmoke;
+	text-align: center;
+	text-decoration: none;
+	width: 25%;
+	
+}
+
+footer li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+	text-decoration: none;
+	font-size: 120%;
+
+
+}
+
+footer li a:hover {
+	background-color: white;
+	color: black;
+}
